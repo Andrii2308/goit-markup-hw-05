@@ -825,7 +825,9 @@ margin-bottom: 4px;
    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    font-weight: 400;
 font-size: 12px;
-line-height: 1.16667;
+line-height: 1.17; 
+padding: 8px 16px;
+resize: none;
 letter-spacing: 0.04em;
 color: rgba(46, 47, 66, 0.4);
    
@@ -843,7 +845,12 @@ border-color: #4D5AE5;
 .check-block {
  width: 360px;
 height: 16px;
-margin-bottom: 16px}
+margin-bottom: 24px;
+}
+
+.modal-field {
+  margin-bottom: 24px;
+}
 
 .text-back-form {
   font-weight: 400;
