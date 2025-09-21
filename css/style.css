@@ -967,6 +967,10 @@ color: #4d5ae5;
    fill: transparent;
 }
 
+ .icon-custom {
+  
+ }
+
 .modal-check-label a::before {
   content: " ";
 }
