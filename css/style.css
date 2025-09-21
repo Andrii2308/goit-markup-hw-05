@@ -985,19 +985,14 @@ color: #4d5ae5;
    justify-content: center; 
    fill: transparent;
 }
-input:checked + label .custom-checkbox {
+input#user-privacy:checked + label .custom-checkbox,
+input#policy:checked + label .modal-check-box {
   background-color: var(--color-background, #404bbf);
   border: none;
-}
-input:checked + label .custom-checkbox svg {
-  fill: var(--color-icon, #F4F4FD);
 }
 
-input:checked + label .modal-check-box {
-  background-color: var(--color-background, #404bbf);
-  border: none;
-}
-input:checked + label .modal-check-box svg {
+input#user-privacy:checked + label .custom-checkbox svg,
+input#policy:checked + label .modal-check-box svg {
   fill: var(--color-icon, #F4F4FD);
 }
 
@@ -1009,6 +1004,3 @@ input:checked + label .modal-check-box svg {
 
  }
 
-.modal-check-label a::before {
-  content: " ";
-}
