@@ -621,6 +621,14 @@ input[type="checkbox"]:checked + label .modal-check-box svg {
 input[type="visually-hidden"]:checked + label .custom-checkbox svg {
   fill: var(--icon-color, #F4F4FD); /* колір іконки через CSS-змінну */
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+}
 
 .subscribe {
   font-weight: 500;
