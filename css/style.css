@@ -951,15 +951,16 @@ height: 16px;
    justify-content: center; 
    fill: transparent;
 }
-input#user-privacy:checked + label .custom-checkbox {
+
+input:checked + label .custom-checkbox {
   background-color: var(--color-background, #404bbf);
   border: none;
+  fill: var(--color-icon, #F4F4FD); /* додано fill для span */
 }
 
-input#user-privacy:checked + label .custom-checkbox svg {
-  fill: var(--color-icon, #F4F4FD);
+input:checked + label .custom-checkbox svg {
+  fill: var(--color-icon, #F4F4FD); /* для svg */
 }
-
 .privacy-link {
   color: var(--link-color, #4d5ae5);
 }
