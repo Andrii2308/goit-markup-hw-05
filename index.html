@@ -575,7 +575,7 @@
         </p>
         <form>
           <div class="div-name">
-            <label class="label-name" for="user-name"> name </label>
+            <label class="label-name" for="user-name"> Name </label>
             <div class="input-box-back">
               <input
                 class="input-back"
@@ -625,16 +625,37 @@
           <div class="div-name">
             <label class="label-name" for="user-name"> Comment </label>
             <div class="input-box-back">
-              <input
-                class="input-back"
-                type="text"
+              <textarea
+                class="text-area"
                 name="user-name"
                 id="user-name"
                 placeholder="Text input"
-              /> 
-
+                rows="5"
+              ></textarea>
             </div>
           </div>
+
+          <div class="check-block">
+            <input
+              type="checkbox"
+              id="accept"
+              name="accept"
+              value="agree"
+              required
+            />
+            <label class="text-back-form" for="accept">
+              I accept the terms and conditions of the
+              <a
+                href="/privacy-policy.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="highlight">Privacy Policy</span>
+              </a>
+            </label>
+          </div>
+
+          <button class="send-btn" type="button">Send</button>
         </form>
       </div>
     </div>
