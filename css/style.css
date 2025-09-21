@@ -751,9 +751,8 @@ svg {
 
 .element-close-backdrop:hover,
 .element-close-backdrop:focus {
-  fill: #ffffff;
   border: none;
-  
+  background-color: #404bbf; 
 }
 
 
