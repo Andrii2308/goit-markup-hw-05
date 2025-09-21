@@ -614,6 +614,14 @@ svg {
 .icon-telegram {
   margin-left: 16px;
 }
+input[type="checkbox"]:checked + label .modal-check-box svg {
+  fill: var(--icon-color, #F4F4FD); /* колір іконки через CSS-змінну */
+}
+
+input[type="visually-hidden"]:checked + label .custom-checkbox svg {
+  fill: var(--icon-color, #F4F4FD); /* колір іконки через CSS-змінну */
+}
+
 .subscribe {
   font-weight: 500;
   font-size: 16px;
