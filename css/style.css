@@ -754,6 +754,11 @@ svg {
   border: none;
   background-color: #404bbf; 
 }
+.element-close-backdrop:hover .icon-backdrop,
+.element-close-backdrop:focus .icon-backdrop {
+  fill: #ffffff;
+}
+
 
 
 .icon-backdrop {
