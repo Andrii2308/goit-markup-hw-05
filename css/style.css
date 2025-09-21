@@ -614,13 +614,16 @@ svg {
 .icon-telegram {
   margin-left: 16px;
 }
-input[type="checkbox"]:checked + label .modal-check-box svg {
-  fill: var(--icon-color, #F4F4FD); /* колір іконки через CSS-змінну */
+/* стиль для custom checkbox */
+input[type="checkbox"].visually-hidden:checked + label .custom-checkbox {
+  background-color: var(--color-background, #404bbf);
+  border: none;
 }
 
-input[type="visually-hidden"]:checked + label .custom-checkbox svg {
-  fill: var(--icon-color, #F4F4FD); /* колір іконки через CSS-змінну */
+input[type="checkbox"].visually-hidden:checked + label .custom-checkbox svg {
+  fill: var(--color-icon, #F4F4FD);
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
