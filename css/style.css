@@ -895,9 +895,3 @@ align-items: flex-start;
   background: #404bbf;
 }
 
-.check-block input[type="checkbox"] {
-  vertical-align: middle;
-}
-.check-block label {
-  vertical-align: middle;
-}
