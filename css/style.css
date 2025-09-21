@@ -942,9 +942,7 @@ height: 16px;
   vertical-align: middle;
 }
 
-.modal-check:checked {
-fill:#F4F4FD;
-}
+
 
 .modal-check-label {
 display: inline-flex;
