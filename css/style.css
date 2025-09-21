@@ -890,8 +890,8 @@ height: 16px;
 
 
 .send-btn {
-  display: flex;
-align-items: flex-start;
+  display: block;
+  align-items: flex-start;
   justify-content: center;
   margin: auto;
   gap: 10px;
@@ -966,9 +966,28 @@ color: #4d5ae5;
    justify-content: center; 
    fill: transparent;
 }
+input:checked + label .custom-checkbox {
+  background-color: var(--color-background, #404bbf);
+  border: none;
+}
+input:checked + label .custom-checkbox svg {
+  fill: var(--color-icon, #F4F4FD);
+}
+
+input:checked + label .modal-check-box {
+  background-color: var(--color-background, #404bbf);
+  border: none;
+}
+input:checked + label .modal-check-box svg {
+  fill: var(--color-icon, #F4F4FD);
+}
+
+.privacy-link {
+  color: var(--link-color, #4d5ae5);
+}
 
  .icon-custom {
-  
+
  }
 
 .modal-check-label a::before {
